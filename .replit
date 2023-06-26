@@ -2,7 +2,7 @@ hidden=[".config"]
 
 # hosting is currently hardcoded for this language
  [hosting]
- route = "/"
+ route = "clique aqui/cliqueaqui.html"
  directory= "/"
 
 [nix]

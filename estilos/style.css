@@ -1,3 +1,9 @@
 body {
     font-size: 15pt;
+  overflow-y: hidden;
+}
+
+#Welcome{
+  width: 100vh;
+  
 }
