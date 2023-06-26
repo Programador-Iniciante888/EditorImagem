@@ -1,9 +1,8 @@
-body {
+body, head {
     font-size: 15pt;
   overflow-y: hidden;
+  background: rgb(0, 0, 97)
+
+
 }
 
-#Welcome{
-  width: 100vh;
-  
-}
