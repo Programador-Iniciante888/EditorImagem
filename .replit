@@ -3,7 +3,7 @@ hidden=[".config"]
 # hosting is currently hardcoded for this language
  [hosting]
  route = "clique aqui/cliqueaqui.html"
- directory= "/"
+ #directory= "/"
 
 [nix]
 channel = "stable-22_11"
