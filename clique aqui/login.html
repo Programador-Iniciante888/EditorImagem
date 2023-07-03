@@ -6,85 +6,28 @@
     <link rel="stylesheet" href="login.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #e3e3e3;
-      }
-      
-      h1 {
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 30px;
-      }
-      
-      form {
-        
-        background-color: #fff;
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 30px;
-        border-radius: 10px;
-      }
-      
-      label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-      
-      input[type=text], input[type=email], input[type=password] {
-        padding: 10px;
-        border-radius: 5px;
-        border: none;
-        width: 100%;
-        margin-bottom: 20px;
-      }
-      
-      input[type=submit] {
-        padding: 10px;
-        background-color: #4CAF50;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      
-      input[type=submit]:hover {
-        background-color: #3e8e41;
-      }
-
-      @media (max-width: 768px) {
-        input[type=text], input[type=email], input[type=password] {
-          width: 80%;
-        }
-      }
-
-      .mx-auto{
-        margin-bottom: 10px;
-      }
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vh;
+  height: 50vh
+} 
     </style>
   </head>
   <body>
-    <h1>Cadastro</h1>
-    <form class="mx-auto">
-      <label>Nome</label>
-      <input type="text" name="nome" required>
-      
-      <label>Email</label>
-      <input type="email" name="email" required>
-      
-      <label>Senha</label>
-      <input type="password" name="senha" required>
-     <br>
+    <div class="login">
+    <img src="https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"><div class="form">
       <a href="criarConta.html">Criar conta</a>
       <input type="submit" value="Cadastrar">
     
       <ul class="list-group">
         <li class="list-group-item active" aria-current="true">Grátis.</li>
         <li class="list-group-item">PREMIUM.</li>
+
       </ul>
-    </form>
+</div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
   </html>
