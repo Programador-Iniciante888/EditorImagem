@@ -63,6 +63,12 @@
       .mx-auto{
         margin-bottom: 10px;
       }
+      input:not(input[type=submit]){
+        border: 1px solid black;
+      }
+      a {
+        text-decoration: none !important;
+      }
     </style>
   </head>
   <body>
@@ -74,6 +80,7 @@
       
       <label>Senha</label>
       <input type="password" name="senha" required>
+      <br>
       <a href="login.html">Logue</a>
       <br>
       <input type="submit" value="Cadastrar">
