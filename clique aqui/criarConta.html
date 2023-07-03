@@ -83,10 +83,14 @@
       <br>
       <a href="login.html">Logue</a>
       <br>
-      <input type="submit" value="Cadastrar">
+      <input type="submit" value="Cadastrar" id="Submit">
       
     
     </form>
-    
+    <script>
+      document.querySelector("#submit").addEventListener("click", ()=>{
+        window.location.href = "images.html";
+      }
+    </script>
   </body>
   </html>
