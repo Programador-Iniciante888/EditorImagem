@@ -18,7 +18,7 @@
  ### Link de acesso: <a src="https://github.com/Programador-Iniciante888/EditorImagem">Clique Aqui</a>
   ### Celular(Android)📳: 
 
-  #### Chrome <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"></img>:   
+  #### <img href="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"></img>:   
   - Clique nos 3 pontinhos;
   - Clique em Versão de computador;
   - Clique em code;
@@ -27,7 +27,7 @@
   - Descompacte;
   - Teste
 
-  #### Opera Gx <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"></img>
+  #### <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"></img>
   - Clique no ícone (opera);
   - Site para desktop;
   - Clique em code;
@@ -35,7 +35,7 @@
   - Use um descompactador de sua preferência;
   - Descompacte;
   - Teste
-  #### Firefox <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white"></img>
+  ####  <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white"></img>
   - Clique nos 3 pontos;
   - Site do desktop;
   - Clique em code;
