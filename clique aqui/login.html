@@ -63,17 +63,32 @@
       <h2 style="color: white;">Tela de Login</h2>
       <form>
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Usuário">
+          <input type="text" class="form-control" placeholder="Usuário" id="email">
         </div>
         <div class="form-group">
-          <input type="password" class="form-control" placeholder="Senha">
+          <input type="password" class="form-control" placeholder="Senha" id="password">
         </div>
         <br>
         <a href="criarConta.html" style="text-decoration: none;">Criar conta </a>
-        <button type="submit" class="btn btn-primary">Entrar</button>
+        <button type="submit" class="btn btn-primary" id="submit">Entrar</button>
       </form>
     </div>
   </div>
+  <script>
+            
+     var vamosver = document.getElementById("submit");
+
+function seleciona(seletor) {
+  return document.querySelector(seletor);
+}
+
+vamosver.addEventListener("click", () => {
+  if (seleciona("#email") && seleciona("#password")) {
+    alert("ok");
+  }
+});
+
+
+  </script>
 </body>
 </html>
-  </html>
